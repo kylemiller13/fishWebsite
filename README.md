@@ -18,7 +18,7 @@ _This website displays information about my pet fish. It was constructed with in
 ## Setup/Installation Requirements
 
 * _Clone or download the repository_
-* _Open HTML file my-fish-webpage.html_
+* _Open HTML file index.html_
 * _to alter the code, open the documents in an IDE or text document_
 * _Any changes should incorporate properly formatted commits with regular history_
 * _if installing on a server, my-fish-webpage and related links must be updated to index.html_
