@@ -1,13 +1,26 @@
+.light-theme {
+  background-color: white;
+  color:black;
+  text-align:center;
+  width: 100%;
+  height: 100%;
+}
+.dark-theme {
+  background-color: black;
+  color: white;
+  text-align:center;
+  width: 100%;
+  height: 100%;
+}
 .column {
   width: 300px;
   min-height: 400px;
   border: 10px solid black;
   padding: 15px;
-  text-align: center;
   margin-left: 15px;
-  background-color: lightblue;
+  background-color: lightgrey;
   border-radius: 30px;
-  
+  color:black;
 }
 
 .column p {
@@ -22,15 +35,9 @@
   
 }
 
-body {
-  background-color:lightslategrey;
-  text-align:center;
-  width: 100%;
-  height: 100%;
-}
+
 
 body p {
-  text-align: center;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -55,4 +62,24 @@ h1 {
   text-align: center;
   display: flex;
   justify-content: center;
+}
+
+#light-mode {
+  color:black;
+  background-color: azure;
+}
+
+#dark-mode {
+  color: white;
+  background-color: black;
+}
+
+.highlight {
+  background-color: #FFFF00;
+  border: 2px solid red;
+}
+
+#fish-convo {
+  text-align:left;
+  margin:0px;
 }
